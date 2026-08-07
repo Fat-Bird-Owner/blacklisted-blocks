@@ -1,17 +1,19 @@
 // file name very used in logic like template-block.
-name: "template"
+name: "bb"
 
-displayName: "Mod Template"
-repo: "Fat-Bird-Owner/Mindustry-mod-template-hjson"
+displayName: "Blacklist Blocks"
+repo: "Fat-Bird-Owner/blacklisted-blocks"
 subtitle: ""
-author: ""
+author: "Fat Bird's Owner"
 
-description: ""
+description: "
+Serpulo challange that bans certain blocks from being used in that sector
+
+Changes are revertable via mod's settings
+"
 
 iosCompatible: true
 version: "v1"
-minGameVersion: "154.3"
+minGameVersion: "158"
 dependencies: []
 hidden: false
-
-contentOrder:[]
