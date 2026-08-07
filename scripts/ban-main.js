@@ -21,5 +21,5 @@ Vars.ui.showInfoToast(text, 15);
 Vars.state.rules.bannedBlocks = bans;
   
 } catch(e){
-Vars.ui.showText("bb-ban-mod.js", e);
+Vars.ui.showText("bb-ban-main.js", e);
 }});
