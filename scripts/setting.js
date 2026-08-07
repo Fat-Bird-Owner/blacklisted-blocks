@@ -6,7 +6,7 @@ Vars.ui.settings.addCategory("Blacklist Blocks", Icon.menu, t => {
 t.checkPref("bb-enabled", false, b => {});
 t.sliderPref("bb-amount", 10, 0, 40, 1, b => {});
 
-t.button(Core.bundle.get("settings.researchReset"), () => {
+t.button(Core.bundle.get("bb-remove-bans"), () => {
 try {
 
 Vars.ui.showConfirm(Core.bundle.get("comfirm.bb-reset-confirm") , () => {
